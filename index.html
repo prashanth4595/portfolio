@@ -2,60 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Battu Prashanth - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Battu Prashanth</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a Java Full Stack Developer with skills in Angular, Spring Boot, and React.js.</p>
+  <!-- 🏠 Home Section -->
+  <section id="home" class="section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I’m <strong>Battu Prashanth</strong> — a Full Stack Developer skilled in Java, Spring Boot, Angular, and React.js.</p>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Java</li>
-      <li>Spring Boot</li>
-      <li>Angular</li>
-      <li>MySQL</li>
-      <li>React.js</li>
+  <!-- 👤 About Me -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I have completed MCA and B.Sc (MPCs). I am a fresher with strong knowledge in Java Full Stack Development.</p>
+  </section>
+
+  <!-- 🧠 Skills -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <ul class="skills">
+      <li>💻 Java</li>
+      <li>🌐 Spring Boot</li>
+      <li>⚙️ Angular</li>
+      <li>🛢️ MySQL</li>
+      <li>⚛️ React.js</li>
+      <li>🎨 HTML, CSS, JavaScript</li>
     </ul>
   </section>
 
-  <section id="projects">
+  <!-- 📂 Projects -->
+  <section id="projects" class="section">
     <h2>Projects</h2>
     <div class="project">
       <h3>College Management System</h3>
-      <p>Developed using Spring Boot and React.js.</p>
+      <p>Developed using Spring Boot & React.js with features like student management, attendance, and exam results.</p>
     </div>
-    <!-- Add more projects as needed -->
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Responsive portfolio built using HTML, CSS, and JavaScript. Deployed on GitHub Pages.</p>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <form>
+  <!-- 📄 Resume -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>Click below to view or download my resume.</p>
+    <a href="prashanthresume.final.pdf" download class="btn">Download Resume (PDF)</a>
+  </section>
+
+  <!-- 📬 Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message"></textarea>
+      <textarea placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
+    <p>📧 Email: battuprashanth@example.com</p>
+    <p>📱 Phone: +91-XXXXXXXXXX</p>
+    <p>🔗 LinkedIn: <a href="#">linkedin.com/in/prashanth</a></p>
   </section>
 
   <footer>
     <p>© 2025 Battu Prashanth</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
